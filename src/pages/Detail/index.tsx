@@ -50,7 +50,7 @@ const Detail = () => {
     })
   }
 
-  function handleWhatsapp() {
+  function handleWhatsApp() {
     Linking.openURL(`whatsapp://send?phone=${data.point.whatsapp}&text=Tenho interesse sobre a coleta de resíduos}`)
   }
 
@@ -86,9 +86,9 @@ const Detail = () => {
         </View>
       </View>
       <View style={styles.footer}>
-        <RectButton style={styles.button} onPress={handleWhatsapp}>
+        <RectButton style={styles.button} onPress={handleWhatsApp}>
           <FontAwesome name="whatsapp" size={20} color="#FFF" />
-          <Text style={styles.buttonText}>Whatsapp</Text>
+          <Text style={styles.buttonText}>WhatsApp</Text>
         </RectButton>
 
         <RectButton style={styles.button} onPress={handleComposeMail}>

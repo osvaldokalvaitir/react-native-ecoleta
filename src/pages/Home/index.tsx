@@ -68,8 +68,8 @@ const Home = () => {
     };
 
     navigation.navigate('Points', {
-      selectedUf,
-      selectedCity
+      uf: selectedUf,
+      city: selectedCity
     });
   }
 
