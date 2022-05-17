@@ -1,134 +1,70 @@
-# React Native - Ecoleta
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="400px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-ecoleta/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-ecoleta.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-ecoleta.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-ecoleta.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-ecoleta.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-ecoleta.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-ecoleta.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - Ecoleta
+</h3>
 
-Aplicação Ecoleta usando React Native, Expo, TypeScript, react-native-maps, react-native-picker-select, react-native-svg, @react-navigation/native, @react-navigation/stack, expo-constants, expo-font, expo-location e expo-mail-composer consumindo os recursos da API do [Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta).
+<p align="center">
+  :recycle: Ecoleta Application using React Native, Expo, TypeScript, react-native-maps, react-native-picker-select, react-native-svg, @react-navigation/native, @react-navigation/stack, expo-constants, expo-font, expo-location, expo-mail-composer and consuming the features of the IBGE API and Node.js - Ecoleta API
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-ecoleta.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-ecoleta.svg?color=00A83A">
 
-  - [Home](#home)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Pontos de coleta](#pontos-de-coleta)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Detalhe](#detalhe)
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+## :iphone: Demo
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+![Demo](/.github/assets/demo.gif)
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+## :wrench: Install and run
 
-  - [Execução do Projeto](#execução-do-projeto)
+_ps: Before running the app, start the [Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta) backend._
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-ecoleta
 
-  - [APIs](#apis)
+# Entry in folder
+cd react-native-ecoleta
 
-## Capturas de Tela
+# Install deps with npm or yarn
+npm install | yarn
 
-### Home
+# Launch the app on ios with expo
+expo start
 
-![Home](/.github/assets/home.png)
-Esta é a primeira tela, que é a apresentação do projeto, é necessário selecionar uma UF e cidade para entrar.
+# The Metro Bundler will open in the browser tab.
 
-### Pontos de coleta
+# Click 'Run on Android device/emulator' to run the project in Android emulator.
+# ps: On Android, you need to accept a permission before installing.
 
-![Points](/.github/assets/points.png)
-Nesta tela, é necessário selecionar os itens desejados e irá aparecer todos os pontos de coletas deste item que são vindos da API.
+# Click 'Run on iOS simulator' to run the project in iOS emulator.
+```
 
-### Detalhe
+## :memo: License
 
-![Detail](/.github/assets/detail.png)
-Ao selecionar um ponto de coleta no mapa, aparece esta tela, onde estão todas as informações do estabelecimento, podendo entrar em contato via WhatsApp ou e-mail.
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-## Desenvolvimento
+---
 
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-cli.md) e siga `Execução de Projeto para Desenvolvimento no React Native no Emulador Android e iOS`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [@react-navigation/native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-navigation-native.md)
-
-- [@react-navigation/stack](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-navigation-stack.md)
-
-- [@expo-google-fonts/roboto](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@expo-google-fonts-roboto.md)
-
-- [@expo-google-fonts/ubuntu](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@expo-google-fonts-ubuntu.md)
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Expo CLI](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-cli.md)
-
-- [expo-constants](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-constants.md)
-
-- [expo-font](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-font.md)
-
-- [expo-location](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-location.md)
-
-- [expo-mail-composer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/expo-mail-composer.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Native MaskedView](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-native-community-masked-view.md)
-
-- [react-native-maps](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-maps.md)
-
-- [react-native-picker-select](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-picker-select.md)
-
-- [react-native-reanimated](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-reanimated.md)
-
-- [react-native-safe-area-context](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-safe-area-context.md)
-
-- [react-native-screens](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-screens.md)
-
-- [react-native-svg](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-svg.md)
-
-- [TypeScript](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/typescript.md)
-
-### APIs
-
-- **[Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta)**
-
-  - **Rotas**
-
-    - Pontos de coleta
-
-      - Lista pontos filtrados
-      - Lista ponto específico
-      - Cria ponto de coleta
-
-    - Itens
-
-      - Lista itens
-
-- **[IBGE API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/ibge-api.md)**
-
-  - **Rotas**
-
-    - Lista todos os estados
-
-    - Lista todos os municípios de um estado selecionado
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
