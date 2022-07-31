@@ -49,7 +49,7 @@ cd react-native-ecoleta
 npm install | yarn
 
 # Launch the app on ios with expo
-expo start
+npm start | yarn start
 
 # The Metro Bundler will open in the browser tab.
 
